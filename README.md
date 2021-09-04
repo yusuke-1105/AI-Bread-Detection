@@ -2,8 +2,9 @@
 
 # このレポジトリについて  
 2021年9月4,5日に開催された[関西情報系学生団体交流会 (KC3)](https://kc3.me/conf/)の勉強会で使用したものです．  
-[このレポジトリ](https://github.com/yusuke-1105/YOLOX)で作成したONNXモデルを使って，YOLOX 物体検出を実行するためのプログラムを提供しています．  
-詳細は[カスタムモデルを使用してOpenVINOで高速推論してみた(近日公開)]()を参照してください．
+CVATによって作成したデータセットを用いて，[このレポジトリ](https://github.com/yusuke-1105/YOLOX)でONNXモデルを作成し，それを用いることでYOLOX物体検出を実行可能にするプログラムを提供しています．  
+CVATの初期設定や，自動アノテーションを行う方法に関しては[CVATの自動アノテーション機能を使ってみた](https://qiita.com/yusuke-1105/items/8375eff45054197caf96)を参照してください．  
+また，モデルの学習に関しては[CVATとYOLOXで機械学習やってみた(近日公開)]()を参照してください．
 
 # ファイル構成  
 - [OpenVINO_Bread_Detection.ipynb](OpenVINO_Bread_Detection.ipynb)  
